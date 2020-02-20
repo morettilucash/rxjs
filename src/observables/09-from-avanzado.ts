@@ -38,8 +38,8 @@ from(miIterable).subscribe(observer)
 const source$ = from(fetch('https://api.github.com/users/morettilucash'));
 
 source$.subscribe(async (resp) => {
-    console.log(resp);
+    console.log('resp',resp);
     const dataResp = await resp.json()
-    console.log(dataResp);
+    console.log('dataResp',dataResp);
 })
 

@@ -1,0 +1,24 @@
+reduce:
+apply a function to each item emitted by an Observable, sequentially, and emit the final value.
+
+scan:
+apply a function to each item emitted by an Observable, sequentially, and emit each successive value.
+
+map:
+transform the items emitted by an Observable by applying a function to each item
+ 
+interval:
+create an Observable that emits a sequence of integers spaced by a given time interval.
+
+of:
+Emit variable amount of values in a sequence and then emits a complete notification.
+
+range
+signature: range(start: number, count: number, scheduler: Scheduler): Observable
+Emit numbers in provided range in sequence.
+
+timer
+After given duration, emit numbers in sequence every specified duration.
+
+create
+Create an observable with given subscription function.
